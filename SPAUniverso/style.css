@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 72px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url("/assets/bg.png");
+}
+
+
+header nav {
+    display: flex;
+    gap: 32px;
+    margin-top: 40px ;
+
+    align-items: center;
+}
+
+nav img {
+    width: 49.72px;
+    height: 42px;
+}
+
+header nav a{
+ 
+    color:#C4C4CC;
+    font-size: 22.5px;
+    font-weight: 700;
+    line-height: 21.67px;
+    list-style: none;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+main {
+    display: grid;
+    place-content: center;
+    margin-top: 172px;
+}
+h1, div h1{
+    color: white;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%; /* 60px */
+    margin-bottom: 24px;
+}
+
+div p {
+    color: #E1E1E6;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    width: 648px;
+}
+
+div {
+    margin: 63px 0 0 0;
+}
+
+button {
+    padding: 12px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+    background-color: transparent ;
+    border: 2px solid #FFF;
+    cursor: pointer;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px; /* 171.429% */
+    text-transform: uppercase;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
