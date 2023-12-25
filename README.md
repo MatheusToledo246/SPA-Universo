@@ -11,6 +11,6 @@ Classes e muito mais.
 Também aprendi a criar um servidor local simples com NodeJs.
 
 Tecnologias
-HTML
-CSS
-JavaScript
+HTML,
+CSS,
+JavaScript.
